@@ -1,0 +1,13 @@
+{
+  "name": "asdaa-aljiha-vivliostyle-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A4 Arabic RTL magazine prototype for Asdaa Aljiha using Vivliostyle",
+  "scripts": {
+    "preview": "vivliostyle preview src/index.html",
+    "build": "vivliostyle build src/index.html -o dist/asdaa-aljiha-sample.pdf"
+  },
+  "devDependencies": {
+    "@vivliostyle/cli": "^11.4.0"
+  }
+}
